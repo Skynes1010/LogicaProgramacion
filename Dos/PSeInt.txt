@@ -1,0 +1,18 @@
+Escribir "Ingrese nombre de cliente"
+    Leer nombre
+    Escribir "Ingrese cantidad de escritorios comprados"
+    Leer escritorio
+    escritorios = 800000
+    Si escritorio < 5 Entonces
+        Escribir nombre " su compra es por valor de " escritorio * escritorios " y su descuento fue " (escritorios * escritorio) * 0.1
+    SiNo
+        Si escritorio >= 5 Y escritorio < 10 Entonces
+            Escribir nombre " su compra es por valor de " escritorio * escritorios " y su descuento fue " (escritorios * escritorio) * 0.2
+        SiNo
+            Si escritorio >= 10 Entonces
+                Escribir nombre " su compra es por valor de " escritorio * escritorios " su descuento fue " (escritorios * escritorio) * 0.4
+            SiNo
+                Escribir "ok"
+            Fin Si
+        Fin Si
+    Fin Si

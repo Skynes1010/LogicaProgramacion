@@ -1,0 +1,12 @@
+	Escribir "Ingrese nombre de empleado "
+	Leer nombre
+	Escribir "Ingrese salario por hora"
+	Leer salario	
+	Escribir "Ingrese horas trabajadas"
+	Leer hora
+	multi = salario * hora
+	Si multi >= 450000 Entonces
+		Escribir nombre , multi
+	SiNo
+		Escribir nombre		
+	Fin Si
